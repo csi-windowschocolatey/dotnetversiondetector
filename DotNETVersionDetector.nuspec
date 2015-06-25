@@ -5,18 +5,18 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>dotnetversiondetector</id>
     <title>DotNETVersionDetector</title>
-    <version>2.9.1.0</version>
+    <version>15.0</version>
     <authors>ASoft</authors>
     <owners>Darwin Sanoy (CSI-Windows.com)</owners>
     <summary>Display all installed versions of .NET and their service pack levels.</summary>
     <description>
 Utility itself does not use .NET so that it will work regardless of whether .NET is installed or what versions are installed.
     </description>
-    <projectUrl>http://www.nektra.com/products/spystudio-api-monitor/</projectUrl>
+    <projectUrl>http://www.asoft.be/prod_netver.html</projectUrl>
     <tags>dotnet, .NET, Version Detect, Version Display</tags>
     <copyright>ASoft</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/csi-windowschocolatey/spystudio/master/spystudio.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/csi-windowschocolatey/dotnetversiondetector/master/appicon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
